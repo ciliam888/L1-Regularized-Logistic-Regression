@@ -21,6 +21,6 @@ Python 3.12, scikit-learn 1.9.1. Run in order:
 
 ## Corpus note
 571 .txt files as downloaded from Canvas ("Train_Text_Documents"), including
-6 files with "(1)" suffixes whose content differs from the same-ID originals;
+6 files with (1) whose content differs from the same-ID originals;
 all were kept. Result: 9,773 CORE / 524,688 NEG / 469 MAYBE chunks;
 train = 15,636, test = 3,910. The corpus and data files are not included.
