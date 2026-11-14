@@ -1,0 +1,72 @@
+Train size: 15636 | Test size: 3910
+TF-IDF shape (train): (15636, 16228)
+
+===== L1 MODEL: EVALUATION =====
+
+Confusion matrix (rows = actual, cols = predicted):
+[[1985    0]
+ [   8 1917]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0      0.996     1.000     0.998      1985
+           1      1.000     0.996     0.998      1925
+
+    accuracy                          0.998      3910
+   macro avg      0.998     0.998     0.998      3910
+weighted avg      0.998     0.998     0.998      3910
+
+ROC AUC: 0.9994
+
+Non-zero coefficients: 30 / 16228 (0.2%)
+  positive: 24 | negative: 6
+
+Top 15 POSITIVE words (predict CORE = 1):
+  trade                +175.7981
+  merchants            +148.1182
+  merchant             +124.6861
+  marchants            +90.4948
+  marchant             +66.8839
+  factor               +57.6456
+  staple               +57.6275
+  adventurers          +41.4753
+  chapman              +36.2446
+  adventurer           +30.9826
+  purser               +26.7404
+  venturers            +8.3516
+  ship                 +2.4070
+  pounds               +1.6358
+  have                 +1.4531
+
+Top 15 NEGATIVE words (predict NEG = 0):
+  god                  -2.7435
+  that                 -2.4899
+  it                   -0.9858
+  christ               -0.4702
+  not                  -0.3853
+  his                  -0.0665
+  (only 6 coefficients are strictly negative)
+
+False positives: 0 | False negatives: 8
+
+--- Sample FALSE POSITIVES (label NEG, model says CORE) ---
+
+--- Sample FALSE NEGATIVES (label CORE, model says NEG) ---
+
+[test #521] P(CORE)=0.423
+  Boord and boord, or thwart the hawse; we are foule on each other: The ships on fire; Cut any thing to get cleere, and smother the fire with wet clothes, We are cleere, and the fire is out, God be thanked. The day is spent, let vs consult. Surgion looke to the wounded, wind vp the slaine, with each a waight or bullet at his head and feete, giue three peeces for their fune∣rals. Swabber make cleane ...
+
+[test #738] P(CORE)=0.020
+  Cornelius Domitianus is said to have dwelt in Velabrum. Aequimelium is betweene Velabrum and the Capitoll, neere to the staplers wooll shops. The name arose hereupon, for that Sp. Melius a Romane cittizen who aspired to bee king, sometime there dwelt: who being detected of that crime, was killed, his goods confiscate, and his house laid levell with the ground, and the plot where it stood, by the R...
+
+[test #1257] P(CORE)=0.428
+  A particular of such necessary provisions as every Adventurer must carry, according to the number of his servants: together with an estimate of their prices. In Victualls. For one man, for a yeere, l. s d Imprimis, eight bushells of meale 2 8 0 Item, two bushellls of Oatmeale 0 9 0 Item, one bushell of Pease 0 4 0 Item, one gallon of Oyle 0 3 6 Item, two gallons of Vinegar 0 2 0 Item, one gallon o...
+
+[test #1281] P(CORE)=0.111
+  First, they goe with lesse charge then others both for men and victualls. Their ships requiring fewer per∣sons to man them, and their men lesse victuall and courser to keepe them, then ours. Besides, many of them are venturers, and so sharers in the gaine: And therefore wilbe content to liue vvith little, to indure all difficulties, to vvorke out all hazards with pati∣ence, and bee good husbands f...
+
+[test #1363] P(CORE)=0.305
+  good my lord remember the poor widow mite for sure if I can do more in this service or otherwise it shall not be omit from Middleborough this first of August 1600. your lordship most dutiful servant JOHN Davis a brief relation of master JOHN Davis chief pilot to the zelander in their East-India voyage depart from Middleborough the fifteen of march 1598. the fifteen hereof we depart from Flushing w...
+
+Saved 8 misclassified chunks to data/hw03_l1_misclassified.json

@@ -1,0 +1,94 @@
+Train size: 15636 | Test size: 3910
+TF-IDF shape (train): (15636, 16228)
+
+===== L2 MODEL: EVALUATION =====
+
+Confusion matrix (rows = actual, cols = predicted):
+[[1908   77]
+ [ 155 1770]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0      0.925     0.961     0.943      1985
+           1      0.958     0.919     0.938      1925
+
+    accuracy                          0.941      3910
+   macro avg      0.942     0.940     0.941      3910
+weighted avg      0.941     0.941     0.941      3910
+
+ROC AUC: 0.9867
+
+Non-zero coefficients: 16228 / 16228 (100.0%)
+
+Top 15 POSITIVE words (predict CORE = 1):
+  trade                +27.5952
+  merchants            +22.2899
+  merchant             +17.6527
+  marchants            +13.4361
+  marchant             +8.8781
+  factor               +5.4552
+  staple               +4.9464
+  commodities          +4.1597
+  buy                  +3.1145
+  chapman              +3.1003
+  exchange             +2.9743
+  london               +2.8592
+  goods                +2.8566
+  ships                +2.7392
+  ship                 +2.6147
+
+Top 15 NEGATIVE words (predict NEG = 0):
+  god                  -3.1697
+  christ               -1.9114
+  rome                 -1.7499
+  enemies              -1.7298
+  power                -1.7204
+  pope                 -1.7132
+  doctrine             -1.6473
+  forces               -1.5688
+  gods                 -1.5628
+  spirit               -1.5280
+  faith                -1.4792
+  death                -1.4377
+  armie                -1.4068
+  king                 -1.3853
+  that                 -1.3289
+
+False positives: 77 | False negatives: 155
+
+--- Sample FALSE POSITIVES (label NEG, model says CORE) ---
+
+[test #10] P(CORE)=0.686
+  There they crosse the way, and goe downe the West side onely of Wa∣ter-lane, and then walke along Thames-street, leaving the Custome house, pas∣sing on to Smarts-key; whence returning backe into the Crosse-lane, so farre as Sir Cuthbert Buckles house, now in the custody of Sir Iohn Lemnian, Knight, and Lord Maior of London, they goe home to the place where they began. Here I was favoured by Master...
+
+[test #30] P(CORE)=0.623
+  nor the King prepare a market for you, you shall doe well to consider, whether is better, to haue Tissaphernes your guide, who euery where seekes to entrap you, or to take guides of your owne choice, who if at any time they proue false, offend against their owne soules and bodies. As for prouision, whether is it better to buy a poore pittance for much mony (which now, being out of pay, will grow s...
+
+[test #37] P(CORE)=0.628
+  An abuse in our Common-wealth necessarily to be reformed; And, as a person that hath both seene, and felt by experience these inconveniences, I wish it to be remedied; For, I can but wonder, that the late Lord high Admirall of England; the late Earle of Cumberland* and the Lord Thomas Howard, now Earle of Suffolke, being of so great authoritie, having to their costs and losse so often made experie...
+
+[test #53] P(CORE)=0.777
+  Very rich it is also underground; as in Salt-pits, Stone-quarries (whereof some be pretious) and mines both of Gold and Silver, Iron, Quick-silver, and other metals: So that nothing is wan∣ting for the life of man, either for nutriment or ornament; and (that which is part of a wonder also) though there be no where more store of money, yet be there no where mea∣ner prizes for their commodities....
+
+[test #137] P(CORE)=0.529
+  The islands of Guernsey and Jersey, without any means of resisting the authority of parliament, are more lightly taxed than any part of Great Britain. Parliament, in attempting to exercise its supposed right, whether well or ill grounded, of taxing the colonies, has never hitherto demanded of them anything which even approached to a just proportion to what was paid by their fellow subjects at home...
+
+--- Sample FALSE NEGATIVES (label CORE, model says NEG) ---
+
+[test #20] P(CORE)=0.265
+  But since that they haue made a trade of the breach of faith, they haue also made a conscience to put hostages to death: as Nar∣ses, who pardoned the hostages of the Luquoies, hauing broken their faith: and Charles duke of Bourgongne had no sooner set three hundred hostages of the Leegeois at li∣bertie (the which he might iustly haue put to death, whatsoeuer Comines saith) but they attempted a new...
+
+[test #38] P(CORE)=0.360
+  Indeede it is true, both the Natives and English understand so much of one anothers lan∣guage, as may enable them to trade one with an∣other, and fit them for conference about things that are subject to outward sense; and so they understand our use in keeping the Sabbath day, observe our reverence in the worship of God, are somewhat acquainted with the morall precepts; know that adultery, theft, m...
+
+[test #55] P(CORE)=0.285
+  morrow morning when the Sun 'gan peepe, wak'd and rub'd mine eyes, and shak'd off sleepe, d vnderstanding that the Riuer went, om Boston vp to Lincolne, and to Trent, mber, Owse Yorke, and (taking paine) e need not come in sight of Sea againe, ik'd the motion, and made haste away Lincolne, which was 50.mile, that Day: ich City in the 3.King Edwards Raigne, s th' onely staple, for this Kingdomes ga...
+
+[test #91] P(CORE)=0.348
+  E. Certainly, the GREEKES, with whom hath bin the vniuersall Staple of antiquities (for, as for the LATINS (who but as it were a while since came to be learned) they haue not much, and the SYRIAN, CALDEAN, and more profoundly learned AEGYP∣TIAN (as the people, among whom the HEBREVVS, Gods owne Scholers, dwelt) haue little obuious) do heere, and there, make famous commemoration of Shields, and Cre...
+
+[test #127] P(CORE)=0.437
+  At these wordes Theodosius began to speake, and say to Vincent: Behold the whole interpretation, but he permitted the Merchant to conclude, who sayd: Well Maisters, I will esteeme you happy, that you haue directed the wayes of your Pilgrimage better then I haue done, I entreat you, by your holy prayers, to obtaine for me, that I may walke hereafter so happily, and so hastily performe the rest of m...
+
+Saved 232 misclassified chunks to data/hw03_l2_misclassified.json

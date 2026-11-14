@@ -1,0 +1,116 @@
+Test chunks where L1 and L2 disagree: 230
+  L2 says NEG, label & L1 say CORE: 150
+  L2 says CORE, label & L1 say NEG: 77
+  Both models wrong:                5
+
+================================================================================
+Label = CORE, L2 = NEG, L1 = CORE  (is the label really merchant discourse?)
+================================================================================
+
+[test #20] label=1 | P_L2=0.265 | P_L1=0.936 | triggers=['trade']
+  But since that they haue made a trade of the breach of faith, they haue also made a conscience to put hostages to death: as Nar∣ses, who pardoned the hostages of the Luquoies, hauing broken their faith: and Charles duke of Bourgongne had no sooner set three hundred hostages of the Leegeois at li∣bertie (the which he might iustly haue put to death, whatsoeuer Comines saith) but they attempted a new warre against him. The clause that hostages should be subiect vnto capitall punishments, was vnknow
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #38] label=1 | P_L2=0.360 | P_L1=0.980 | triggers=['trade']
+  Indeede it is true, both the Natives and English understand so much of one anothers lan∣guage, as may enable them to trade one with an∣other, and fit them for conference about things that are subject to outward sense; and so they understand our use in keeping the Sabbath day, observe our reverence in the worship of God, are somewhat acquainted with the morall precepts; know that adultery, theft, murther and lying are forbidden, which nature teacheth, because these things are outward, and may bee
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #55] label=1 | P_L2=0.285 | P_L1=0.872 | triggers=['staple']
+  morrow morning when the Sun 'gan peepe, wak'd and rub'd mine eyes, and shak'd off sleepe, d vnderstanding that the Riuer went, om Boston vp to Lincolne, and to Trent, mber, Owse Yorke, and (taking paine) e need not come in sight of Sea againe, ik'd the motion, and made haste away Lincolne, which was 50.mile, that Day: ich City in the 3.King Edwards Raigne, s th' onely staple, for this Kingdomes gaine or, Leather, Lead, and Wooll, and then was seene ue times ten Churches there, but now Fifteene: 
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #91] label=1 | P_L2=0.348 | P_L1=0.992 | triggers=['staple']
+  E. Certainly, the GREEKES, with whom hath bin the vniuersall Staple of antiquities (for, as for the LATINS (who but as it were a while since came to be learned) they haue not much, and the SYRIAN, CALDEAN, and more profoundly learned AEGYP∣TIAN (as the people, among whom the HEBREVVS, Gods owne Scholers, dwelt) haue little obuious) do heere, and there, make famous commemoration of Shields, and Crests. A. They do. But those deuises were, for the more part, arbitrary, not armorially formall.
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #127] label=1 | P_L2=0.437 | P_L1=0.996 | triggers=['merchant']
+  At these wordes Theodosius began to speake, and say to Vincent: Behold the whole interpretation, but he permitted the Merchant to conclude, who sayd: Well Maisters, I will esteeme you happy, that you haue directed the wayes of your Pilgrimage better then I haue done, I entreat you, by your holy prayers, to obtaine for me, that I may walke hereafter so happily, and so hastily performe the rest of my way in this mortall life, that God may be glorified, and the repose of my soule assured, vnder the
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #152] label=1 | P_L2=0.495 | P_L1=0.992 | triggers=['merchant']
+  Hee departed this life the 4. day of April, 1597. be∣ing about the age of 63. yeeres: and she, being the age of 67. the 29. of October, 1614. Votum S. Pauli. Phil. 1. Adepti. In March; 1588. was buried in this place, In the same wall lower, a hansome small Mo∣nument. Alexander Every, Merchant but 40. yeeres of age, Whose godly gifts, by will, are warrants of Gods grace In him. By whom, thinke on thy selfe, and on the stage Thou stand'st, and measure it, and other worldly things: As streames that
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #160] label=1 | P_L2=0.412 | P_L1=1.000 | triggers=['staple']
+  In Shopland is an ancient mannor called Butlers, Butler of a race of knights, and gentlemen that dwelt there, and gaue three couered Cups, as appea∣reth in the Church window, there is one most beautifull Monument in the Church, made to the memory of one Staple, Staple a Sergeant at Armes, to King Ed. the third, which gaue in his Shield a Salter mixt with Staples: which in colours with other Scutcheons remaine in the North windowes. His tombe is thus inscribed. Tho. Stapel iadis Seriant d'armes n
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #201] label=1 | P_L2=0.282 | P_L1=0.943 | triggers=['factor']
+  This man is a Harpy that peckes up all the good seed: a great beast (...) breakes through the sense of Gods Law; makes a vast gappe or breach; and as my Text saies, the whole heard followes him. How does Dives in hell now curse (...) flatterers! If thou knowest whose factor thy ill companion is, thou wouldest (...) him. He is such a pleasing murtherer that he tickles thee to death; and like Salomons foole, thou dyest laughing. A good man accompanying an evill, is like a l^ving body bound to a de
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #206] label=1 | P_L2=0.434 | P_L1=0.972 | triggers=['marchant']
+  A miserable Rape. AT such time as the French made warre in Italy, vnder the raigne of LEVVIS the twelfth, a riche Marchant of Milan, (hauing one onely Sonne called GALEAS, about tenne yeare olde) dyed, leauing his heire a verye great estate, whom the Mother (an honorable and vertuous Gentlewoman) caused to be carefully brought vp, and instructed in all honest and decent exercises. Being come to the age of eighteene yeares, he began on the one part; to vnderstand the estate of his affayres, for t
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #209] label=1 | P_L2=0.358 | P_L1=0.961 | triggers=['chapman']
+  O mercenary city and soone to bee ruined by sale if it might finde but a Chapman. Not without reason then haue some found in the word ROMA, Radix Omnium Malorum Avaritia, Covetousnesse is the roote of all mischiefe, 1 Tim. 6. 1^* taking the first letters of those wordes as they lye in their order for the making vp of that name. And not without proper signification Cap. 39. v. 2^* 29.
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+================================================================================
+Label = NEG, L2 = CORE, L1 = NEG  (did L2 find merchant discourse the rule missed?)
+================================================================================
+
+[test #10] label=0 | P_L2=0.686 | P_L1=0.028 | triggers=none
+  There they crosse the way, and goe downe the West side onely of Wa∣ter-lane, and then walke along Thames-street, leaving the Custome house, pas∣sing on to Smarts-key; whence returning backe into the Crosse-lane, so farre as Sir Cuthbert Buckles house, now in the custody of Sir Iohn Lemnian, Knight, and Lord Maior of London, they goe home to the place where they began. Here I was favoured by Master Iohn Childerlay, Doctor of Divinity, my wor∣thy good friend, and his diligent Offi∣cers.
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #30] label=0 | P_L2=0.623 | P_L1=0.023 | triggers=none
+  nor the King prepare a market for you, you shall doe well to consider, whether is better, to haue Tissaphernes your guide, who euery where seekes to entrap you, or to take guides of your owne choice, who if at any time they proue false, offend against their owne soules and bodies. As for prouision, whether is it better to buy a poore pittance for much mony (which now, being out of pay, will grow scant amongst vs) out of a market, which they shall furnish, or hauing the victory, to vse what measu
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #37] label=0 | P_L2=0.628 | P_L1=0.022 | triggers=none
+  An abuse in our Common-wealth necessarily to be reformed; And, as a person that hath both seene, and felt by experience these inconveniences, I wish it to be remedied; For, I can but wonder, that the late Lord high Admirall of England; the late Earle of Cumberland* and the Lord Thomas Howard, now Earle of Suffolke, being of so great authoritie, having to their costs and losse so often made experience of the inconveniences of these lewd proceedings, haue not vnited their Goodnesses and Wisedomes,
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #53] label=0 | P_L2=0.777 | P_L1=0.021 | triggers=none
+  Very rich it is also underground; as in Salt-pits, Stone-quarries (whereof some be pretious) and mines both of Gold and Silver, Iron, Quick-silver, and other metals: So that nothing is wan∣ting for the life of man, either for nutriment or ornament; and (that which is part of a wonder also) though there be no where more store of money, yet be there no where mea∣ner prizes for their commodities.
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #137] label=0 | P_L2=0.529 | P_L1=0.023 | triggers=none
+  The islands of Guernsey and Jersey, without any means of resisting the authority of parliament, are more lightly taxed than any part of Great Britain. Parliament, in attempting to exercise its supposed right, whether well or ill grounded, of taxing the colonies, has never hitherto demanded of them anything which even approached to a just proportion to what was paid by their fellow subjects at home. If the contribution of the colonies, besides, was to rise or fall in proportion to the rise or fal
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #231] label=0 | P_L2=0.559 | P_L1=0.022 | triggers=none
+  One of them presented the Archbishop of Goa with a Crucifix, so cunningly wrought, as if he had giuen life to the Image of one dead. He sent it to the King of Spaine as a rare Iewell, not to be equalled in Europe. The Inhabitants heere are actiue and expert in Iuggling, both men and women, trauelling through India with their strange Hobby-horses, to get money by this vanity. The Sea-coast (as in other Indian Ilands) is inhabited with Moores, the Inland with Pagans. The Portugals haue a Fortresse
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #268] label=0 | P_L2=0.518 | P_L1=0.022 | triggers=none
+  The circuite, and compas of their Monarchies were very great; SESOSTRIS the Egyptian conquered all Arabia, and a great part of Lybia; Ethiopia, with all the Isles of that countrey; al the sea coasts euen to the Indies; passed the riuer Ganges running hither and thither, euen to the great Ocean, and ouer came all the nations of the Scythians, euen to the riuer Tanais: and comming into Europe, went through the countrey of Thrace; where he made an end of his enterprise, and retorned into Egypt.
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #429] label=0 | P_L2=0.578 | P_L1=0.022 | triggers=none
+  The Lacedemonians thinke it not fitting nor honest Of the Lacede∣monij. to bestow themselues in learning any other arts then such as belong to the warres: the men dyet all together in one place, they reuerence all old men as their parents: and as the men haue exercises proper to them-selues, so haue the maides likewise to themselues: It is not lawfull for stran∣gers to dwell at Spatta, nor for a Spartane to trauell into other countries: they giue power and licence to their wiues to take the fair
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #433] label=0 | P_L2=0.544 | P_L1=0.020 | triggers=none
+  This is all that the Frenchmen haue done in the South parts of A∣merica, and now I will make mention of their proceedings in these parts that are next vnto vs. Francis the first of France a braue Prince, and natural∣ly giuen to great things, after the Voyage made by Iohn Verrizan (Chabot hauing discouered the Continent for Henry the seuenth) did send forth Iames Quartier one of Saint Malo, who by two seuerall Voyages did discouer the Riuer of Cannada, and by his relation doth commend it exceedin
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #503] label=0 | P_L2=0.724 | P_L1=0.018 | triggers=none
+  Insomuch that who could steale most cunningly was most commended; But who seeth not that this was the next way to fill the Common-wealth with Theeues. For is it likely that those who from their infancy are brought vp in pilfering trifles, will afterwards, when they haue got the habit and ability thereof, forbeare to steale things of great importance? Or can theeues practise their occupation with more safety any way to become in the end most expert, and thereby pernicious to the Common-wealth, th
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+================================================================================
+Both models disagree with the label
+================================================================================
+
+[test #521] label=1 | P_L2=0.402 | P_L1=0.423 | triggers=['purser']
+  Boord and boord, or thwart the hawse; we are foule on each other: The ships on fire; Cut any thing to get cleere, and smother the fire with wet clothes, We are cleere, and the fire is out, God be thanked. The day is spent, let vs consult. Surgion looke to the wounded, wind vp the slaine, with each a waight or bullet at his head and feete, giue three peeces for their fune∣rals. Swabber make cleane the shippe. Purser record their names; Watch bee vigilant to keepe your berth to wind∣ward: and that
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #738] label=1 | P_L2=0.299 | P_L1=0.020 | triggers=['staplers']
+  Cornelius Domitianus is said to have dwelt in Velabrum. Aequimelium is betweene Velabrum and the Capitoll, neere to the staplers wooll shops. The name arose hereupon, for that Sp. Melius a Romane cittizen who aspired to bee king, sometime there dwelt: who being detected of that crime, was killed, his goods confiscate, and his house laid levell with the ground, and the plot where it stood, by the Romanes was made a void yard. The temple of Murtiae, goddesse of Idlenesse, was under the Aventine, u
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #1257] label=1 | P_L2=0.378 | P_L1=0.429 | triggers=['adventurer']
+  A particular of such necessary provisions as every Adventurer must carry, according to the number of his servants: together with an estimate of their prices. In Victualls. For one man, for a yeere, l. s d Imprimis, eight bushells of meale 2 8 0 Item, two bushellls of Oatmeale 0 9 0 Item, one bushell of Pease 0 4 0 Item, one gallon of Oyle 0 3 6 Item, two gallons of Vinegar 0 2 0 Item, one gallon of Aquavitae 0 2 6 Item, one bushell of Bay-salt 0 2 0 Item, in Sugar, Spice and Fruit 0 6 8 Summ. 3 
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #3160] label=1 | P_L2=0.173 | P_L1=0.060 | triggers=['venturers']
+  If it be the absence of their children that troubles them so much,Absence of children cannot in reason trouble them. that they enioy not ^he companie of them, whom they loue so deerly, first this is too effeminate and too womanish a kind of loue, not to be able to endure their absence, when it is so beneficial vnto them. Secondly, how manie be ^^ ere, that vpon diuers occasions neuer see their children in manie yeares, either because they are marc^ant-venturers, or serue some where in the wa^^es
+  YOUR VERDICT (merchant discourse? label right or model right?): ____
+
+[test #3169] label=1 | P_L2=0.186 | P_L1=0.019 | triggers=['venturer']
+  The greene L very, that Embleme of frailtie, which h e wore living, must now bee the Carp t t cover him dying. Out of all hi spacious raunge, he ha's rese ved so much ground a may afford him a Grave. More hee n edes not, and to bee debarr d t is, even in humanity he can ot. What rests then, but that hee rest after his long Walke? While a fixe his owne Epitaph upon his owne naked monume t, to make his memory more perp tuate; Defessus sum ambulando. Pitty were it then to disquiet him. 7. A Gameste
+  YOUR VERDICT (merchant discourse? label right or model right?): ____

@@ -1,0 +1,12 @@
+# Python environment
+.venv/
+__pycache__/
+
+# Corpus and large generated data
+texts/
+data/
+models/
+duplicates/
+
+# Mac
+.DS_Store
